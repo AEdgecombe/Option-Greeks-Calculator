@@ -1,32 +1,21 @@
-# Option Greeks Calculator
+# Options Data GUI
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+This is a simple GUI application that fetches options data for a given stock symbol and calculates option Greeks.
 
-## Description
+## Installation
 
-This repository contains a Python script that fetches option data from Yahoo Finance and calculates various option Greeks (Delta, Theta, Vega, Gamma, Rho) using the Mibian library. The script provides valuable insights for analyzing options and making informed trading decisions.
+1. Clone this repository: `git clone https://github.com/yourusername/OptionsDataGUI.git`
+2. Navigate into the project directory: `cd OptionsDataGUI`
+3. Install the required dependencies: `pip install -r requirements.txt`
 
-## Prerequisites
+## Usage
 
-- Python 3.8 or higher
-- yfinance library (install with `pip install yfinance`)
-- pandas library (install with `pip install pandas`)
-- mibian library (install with `pip install mibian`)
+Run the script with: `python main.py`
+Enter the stock symbol in the input box and press Enter or click on the "Fetch Options Data" button to fetch and display the data.
 
-## How to Use
+## Dependencies
 
-1. Clone the repository to your local machine.
-2. Install the required libraries using the provided prerequisites.
-3. Modify the `stock_symbols` list in the script with your desired list of stock symbols.
-4. Run the script to fetch option data, calculate Greeks, and export the results to CSV files.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Disclaimer
-
-This script is for educational and informational purposes only. Always do your own research and seek professional advice before making any financial decisions.
-
----
-
+- PyQt5
+- yfinance
+- mibian
+- pandas
