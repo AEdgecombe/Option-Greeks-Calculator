@@ -12,6 +12,7 @@ This is a simple GUI application that fetches options data for a given stock sym
 
 Run the script with: `python main.py`
 Enter the stock symbol in the input box and press Enter or click on the "Fetch Options Data" button to fetch and display the data.
+In the future I want to make this a full scale ML app.
 
 ## Dependencies
 
